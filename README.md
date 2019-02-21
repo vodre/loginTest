@@ -1,5 +1,5 @@
-![alt text](https://github.com/vodre/rappiTest/blob/master/images/ezgif-3-396cde7073f5.gif)
-![alt text](https://github.com/vodre/rappiTest/blob/master/images/gif1.gif)
+![alt text](https://github.com/vodre/loginTest/blob/master/gifs/gif1.gif)
+![alt text](https://github.com/vodre/loginTest/blob/master/gifs/gif2.gif)
 
 # Pago - Login Test
 Movie DB Gallery using View Model - Ricardo Castillo
