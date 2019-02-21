@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">login_sample</string>
+    <!-- Strings related to login -->
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancelar</string>
+    <string name="prompt_email">Agente</string>
+    <string name="prompt_phone">Telefono</string>
+    <string name="prompt_cash">Monto</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Iniciar Sesión</string>
+    <string name="action_continue">Continuar</string>
+    <string name="action_aceptar">Aceptar</string>
+    <string name="action_todos">Ver Todos</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">Nombre de agente invalido</string>
+    <string name="error_invalid_password">Este password es muy corto</string>
+    <string name="error_incorrect_password">El password no es correcto</string>
+    <string name="error_field_required">Este campo es obligatorio</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="v_2">V.2</string>
+    <string name="filter">Filter</string>
+    <string name="numero_telefonico">Numero telefonico</string>
+    <string name="monto_a_recargar">Monto a recargar</string>
+    <string name="realice_su_pago_oportunamente">Realice su pago oportunamente en la sucursal de preferencia</string>
+</resources>

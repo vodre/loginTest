@@ -1,0 +1,142 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/gray"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                tools:context=".ui.activities.LoginActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/tv_id"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:drawableStart="@drawable/ic_people_outline_black_24dp"
+                android:drawablePadding="@dimen/margin_micro"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/tv_time"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:drawablePadding="@dimen/margin_micro"
+                android:drawableStart="@drawable/ic_access_time_black_24dp"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/tv_date"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:drawablePadding="@dimen/margin_micro"
+                android:drawableStart="@drawable/ic_date_range_black_24dp"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <TextView
+            android:text="Se realizara una recarga"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/margin_large"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <ImageView
+            android:id="@+id/logo"
+            android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:layout_gravity="center"
+               android:layout_marginTop="@dimen/margin_mini"
+               android:layout_marginBottom="@dimen/margin_mini"
+               tools:src="@drawable/ic_logo"/>
+
+    <TextView
+            android:text="@string/numero_telefonico"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/margin_mini"
+            android:textSize="@dimen/text_size_micro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/tv_phone_number"
+            tools:text="56 111 36 245"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_medium"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:text="@string/monto_a_recargar"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/margin_mini"
+            android:textSize="@dimen/text_size_micro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/tv_amount"
+            tools:text="$200.00"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/margin_mini"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:text="@string/realice_su_pago_oportunamente"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/text_size_micro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="36dp"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content">
+        <Button
+                android:id="@+id/confirmation"
+                style="?android:textAppearanceSmall"
+                android:layout_width="@dimen/size_button"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background"
+                android:layout_marginHorizontal="@dimen/margin_large"
+                android:text="@string/action_continue"
+                android:textStyle="bold"/>
+        <Button
+                android:id="@+id/cancelation"
+                style="?android:textAppearanceSmall"
+                android:layout_width="@dimen/size_button"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background"
+                android:layout_marginHorizontal="@dimen/margin_large"
+                android:text="@string/cancel"
+                android:textStyle="bold"/>
+    </LinearLayout>
+
+
+</LinearLayout>
